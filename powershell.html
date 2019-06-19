@@ -1,0 +1,151 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#menu {
+	/*margin: 0;*/
+    padding-top: 150px;
+	font-family: "Lucida Console", Monaco, monospace;
+    background-color: green;
+	/*border-left: 3px dashed #F5F5F5;*/
+	/*border-right: 3px dashed #F5F5F5;*/
+	margin-left: 0px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+}
+
+#menu p {
+	top: 500px;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	letter-spacing: 2px;
+}
+
+#content {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	left: 350px;
+	top: 10%;
+	width: 50%;
+}
+
+#content img {
+	float: left;
+}
+
+#content a {
+	color: green;
+}
+
+#content a:hover {
+	color: black;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin: 20px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+.project {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding-top: 20%;
+	font-weight: bold;
+	color: black;
+	/*text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;*/
+	text-align: center;
+	border-radius: 10px;
+}
+
+.underproject {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container:hover .project {
+	display: block;
+}
+
+.container:hover .underproject {
+	opacity: 0.3;
+}
+
+.titlepic {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 30px;
+}
+</style>
+</head>
+
+<body>
+	<div id="menu">
+		<h2><a href="../">ted dawson</h2></p>
+		<p><a href="../research">research</a></p>
+		<p><a href="../teaching">teaching</a></p>
+		<p><a href="../projects">projects</a></p>
+		<a href="http://www.github.com/tedawson"><img src="https://my.vanderbilt.edu/teddawson/files/2016/04/GitHub-Mark-32px.png" /></a>
+	</div>
+
+	<div id="content">
+		<!--<div class="titlepic" style='background-image: url("austrorap.png")'></div>-->
+		<h1>PowerShell Tutorial</h1>
+		<p>My <q>Introduction to PowerShell</q> for <em>The Programming Historian</em>
+		introduces humanists to working on the command line to do basic tasks and get started with important command-line tools
+		such as Wget, Mallet, or Python scripting. While several command-line tutorials oriented towards humanists currently
+		exist, including one on <em>The Programming Historian</em>, all teach Bash, and either expect Windows users to install
+		Bash or include nods towards PowerShell, but treat it as a Windows version of Bash, and thus do not explain how to do
+		many of the most important things, and sometimes even explain things incorrectly.
+		This tutorial corrects that problem by being oriented specifically towards PowerShell. As such, it also hopes to correct
+		an inadvertent bias in the Digital Humanities toward Mac users.</p>
+		<p>Read it <a href="http://programminghistorian.org/lessons/intro-to-powershell">on <em>The Programming Historian</em></a>.</p>
+		<p><a href="../projects">Back to projects page.</a></p>
+
+
+
+
+	</div>
+
+
+</body>
+</html>

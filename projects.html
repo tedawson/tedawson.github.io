@@ -1,0 +1,202 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#menu {
+	/*margin: 0;*/
+    padding-top: 150px;
+	font-family: "Lucida Console", Monaco, monospace;
+    background-color: green;
+	/*border-left: 3px dashed #F5F5F5;*/
+	/*border-right: 3px dashed #F5F5F5;*/
+	margin-left: 0px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+}
+
+#menu p {
+	top: 500px;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	letter-spacing: 2px;
+}
+
+#content {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	left: 350px;
+	top: 10%;
+	width: 50%;
+}
+
+#content img {
+	float: left;
+}
+
+#content a {
+	color: green;
+}
+
+#content a:hover {
+	color: black;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin: 20px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+.project {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding-top: 20%;
+	font-weight: bold;
+	color: black;
+	/*text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;*/
+	text-align: center;
+	border-radius: 10px;
+}
+
+.underproject {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container:hover .project {
+	display: block;
+}
+
+.container:hover .underproject {
+	opacity: 0.3;
+}
+
+.titlepic {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 30px;
+}
+</style>
+</head>
+
+<body>
+	<div id="menu">
+		<h2><a href="./home.html">ted dawson</h2></p>
+		<p><a href="./research.html">research</a></p>
+		<p><a href="./teaching.html">teaching</a></p>
+		<p><a href="./projects.html">projects</a></p>
+		<a href="http://www.github.com/tedawson"><img src="https://my.vanderbilt.edu/teddawson/files/2016/04/GitHub-Mark-32px.png" /></a>
+	</div>
+
+
+	<div id="content">
+
+		<h1>Digital Projects</h1>
+		<table id="projlist">
+
+			<tr>
+			<td>
+				<a href="../visualization"><div class="container">
+				<div class="project"><p>Visualizing<br />Rap<br />Collaboration</p></div>
+				<div class="underproject" style='background-image: url("https://my.vanderbilt.edu/teddawson/files/2016/04/collabo.png")'></div>
+				</div></a>
+			</td>
+			<td>
+				<a href="../104Coding">
+				<div class="container">
+				<div class="project" ><p>Collaborative<br />Coding in <br />4th Semester<br />German Class</p></div>
+				<div class="underproject" style='background-image: url("https://my.vanderbilt.edu/teddawson/files/2016/04/teachin2.png")'></div>
+				</div></a>
+			</td>
+			<td>
+				<a href="../MidTN">
+				<div class="container">
+				<div class="project"><p>Mapping German<br />History and Culture<br />in Middle Tennessee</p></div>
+				<div class="underproject" style='background-image: url("https://my.vanderbilt.edu/teddawson/files/2016/04/maptn.png")'></div>
+				</div></a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<a href="../distantreading"><div class="container">
+				<div class="project"><p>Distant Readings<br />of Austrian<br />Rap Songs</p></div>
+				<div class="underproject" style='background-image: url("https://my.vanderbilt.edu/teddawson/files/2016/04/lit-and-code.png")'></div>
+				</div></a>
+			</td>
+			<td>
+				<a href="../powershell">
+				<div class="container">
+				<div class="project"><p>Command-line<br />tutorial for<br />Humanists</p></div>
+				<div class="underproject" style='background-image: url("https://my.vanderbilt.edu/teddawson/files/2016/04/powershelltutorial.png")'></div>
+				</div></a>
+			</td>
+			<td>
+				<a href="../infravu">
+				<div class="container">
+				<div class="project"><p>Immersive Experiences<br />of Campus<br />Infrastructure</p></div>
+				<div class="underproject" style='background-image: url("https://s3.amazonaws.com/vu-my/wp-content/uploads/sites/1095/2017/12/02173951/tunnel.jpg")'></div>
+				</div></a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<a href="../bt344"><div class="container">
+				<div class="project"><p>Network Analysis<br />and Moving Images<br />(BT-344)</p></div>
+				<div class="underproject" style='background-image: url("https://s3.amazonaws.com/vu-my/wp-content/uploads/sites/1095/2016/04/02175534/WebNetwork.jpg")'></div>
+				</div></a>
+			</td>
+			<td>
+				<a href="../slivr">
+				<div class="container">
+				<div class="project"><p>Second Language<br />Learning, Immersion<br />and VR</p></div>
+				<div class="underproject" style='background-image: url("https://s3.amazonaws.com/vu-my/wp-content/uploads/sites/1095/2016/04/03104910/slivr1.jpg")'></div>
+				</div></a>
+			</td>
+			<td>
+			</td>
+			</tr>
+
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#menu {
+	/*margin: 0;*/
+    padding-top: 150px;
+	font-family: "Lucida Console", Monaco, monospace;
+    background-color: green;
+	/*border-left: 3px dashed #F5F5F5;*/
+	/*border-right: 3px dashed #F5F5F5;*/
+	margin-left: 0px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+}
+
+#menu p {
+	top: 500px;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	letter-spacing: 2px;
+}
+
+#content {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	left: 350px;
+	top: 10%;
+	width: 50%;
+}
+
+#content img {
+	float: left;
+}
+
+#content a {
+	color: green;
+}
+
+#content a:hover {
+	color: black;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin: 20px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+.project {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding-top: 20%;
+	font-weight: bold;
+	color: black;
+	/*text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;*/
+	text-align: center;
+	border-radius: 10px;
+}
+
+.underproject {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container:hover .project {
+	display: block;
+}
+
+.container:hover .underproject {
+	opacity: 0.3;
+}
+
+.titlepic {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 30px;
+}
+</style>
+</head>
+
+<body>
+	<div id="menu">
+		<h2><a href="../">ted dawson</h2></p>
+		<p><a href="../research">research</a></p>
+		<p><a href="../teaching">teaching</a></p>
+		<p><a href="../projects">projects</a></p>
+		<a href="http://www.github.com/tedawson"><img src="https://my.vanderbilt.edu/teddawson/files/2016/04/GitHub-Mark-32px.png" /></a>
+	</div>
+
+	<div id="content">
+		<!--<div class="titlepic" style='background-image: url("austrorap.png")'></div>-->
+		<h1>Literature, Culture, and Code</h1>
+		<p>A flexible course companion for teaching humanists to code with Python. The first section
+		teaches basic principles (Python syntax, variables, functions, branching, modularity) to the absolute novice
+		by leading the learner through writing scripts to conduct basic analyses of texts stored online. The second
+		section presents engaging projects for exploring humanities themes with Python. These projects are meant both to rigorously
+		develop programming skills for humanists and to present humanistic applications to those from a computer science background.
+		Projects explore such areas as computer-generated poetry and creative sound experimentation and data sonification. The
+		final section provides a code based exploration of literary theories and a very brief introduction to critical code studies.
+		</p>
+		<p>Ultimately envisioned as a web-based book, <em>Literature, Culture, and Code</em> is intended to offer
+		a course for individual study, as well as a basic text that could be used in a semester-long course or to provide exercises
+		for shorter workshops.</p>
+		<p>For an example of a semester course in which <em>Literature, Culture, and Code</em> is integrated, see
+		my syllabus for a course called <a href="https://my.vanderbilt.edu/teddawson/files/2016/04/HumansInDigitalAge.pdf">The 'Paragon of Animals' in a World of Computers: An Introduction to Humanistic Inquiry in the Digital Age.</a>
+		<p>See the working repo <a href="https://github.com/tedawson/lit-and-code">on GitHub</a>.</p>
+		<p><a href="../projects">Back to projects page.</a></p>
+
+
+
+
+	</div>
+
+
+</body>
+</html>

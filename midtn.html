@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#menu {
+	/*margin: 0;*/
+    padding-top: 150px;
+	font-family: "Lucida Console", Monaco, monospace;
+    background-color: green;
+	/*border-left: 3px dashed #F5F5F5;*/
+	/*border-right: 3px dashed #F5F5F5;*/
+	margin-left: 0px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+}
+
+#menu p {
+	top: 500px;
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	letter-spacing: 2px;
+}
+
+#content {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	left: 350px;
+	top: 10%;
+	width: 50%;
+}
+
+#content img {
+	float: left;
+}
+
+#content a {
+	color: green;
+}
+
+#content a:hover {
+	color: black;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin: 20px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+.project {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding-top: 20%;
+	font-weight: bold;
+	color: black;
+	/*text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;*/
+	text-align: center;
+	border-radius: 10px;
+}
+
+.underproject {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container:hover .project {
+	display: block;
+}
+
+.container:hover .underproject {
+	opacity: 0.3;
+}
+
+.titlepic {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	border-radius: 30px;
+}
+</style>
+</head>
+
+<body>
+	<div id="menu">
+		<h2><a href="../">ted dawson</h2></p>
+		<p><a href="../research">research</a></p>
+		<p><a href="../teaching">teaching</a></p>
+		<p><a href="../projects">projects</a></p>
+		<a href="http://www.github.com/tedawson"><img src="https://my.vanderbilt.edu/teddawson/files/2016/04/GitHub-Mark-32px.png" /></a>
+	</div>
+
+	<div id="content">
+		<!--<div class="titlepic" style='background-image: url("austrorap.png")'></div>-->
+		<h1>Mapping Sites of German History, Culture, and Education in Middle Tennessee</h1>
+		<p>An interactive map of all things German in Middle Tennessee. Produced with the support of the
+		Tennessee chapter of the American Council on Germany, this map will serve as the central piece of the
+		German in Middle Tennessee project, which also produces interviews with local German speakers for use
+		in localized German instruction and as an oral history project. This map is ultimately to be integrated
+		into the website of the Tennessee Chapter of the American Association of Teachers of German.</p>
+		<p>Visit the map in its <a href="https://my.vanderbilt.edu/germanoutreach/german-in-middle-tennessee/mapping-german/">temporary home</a>.</p>
+		<p>See the GeoJSON source <a href="https://github.com/tedawson/MidTN-German/blob/master/Map/MidTNGerman.js">on GitHub</a>.</p>
+		<p><a href="../projects">Back to projects page.</a></p>
+
+
+
+
+	</div>
+
+
+</body>
+</html>
