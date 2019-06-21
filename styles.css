@@ -6,54 +6,105 @@ body {
 background-color: #F5F5F5;
 }
 
-#menu {
-/*margin: 0;*/
-  padding-top: 150px;
-font-family: "Lucida Console", Monaco, monospace;
+/* normal version */
+@media screen and (min-width: 768px) {
+  #menu {
+  /*margin: 0;*/
+    padding-top: 150px;
+  font-family: "Lucida Console", Monaco, monospace;
+    background-color: #2b8c3b;
+  /*border-left: 3px dashed #F5F5F5;*/
+  /*border-right: 3px dashed #F5F5F5;*/
+  margin-left: 0px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  opacity: 0.9;
+  z-index: 10;
+  }
+
+  #menu p {
+  top: 500px;
+  }
+
+  #menu a {
+  color: white;
+  }
+
+  #menu a:hover {
+  letter-spacing: 2px;
+  }
+
+  #content {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: absolute;
+  left: 350px;
+  top: 10%;
+  width: 50%;
+  }
+
+  #content img {
+  float: left;
+  }
+
+  #content a {
+  color: green;
+  }
+
+  #content a:hover {
+  color: black;
+  }
+}
+
+/* phone version */
+@media screen and (max-width: 768px) {
+  #menu {
+  padding-top: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
   background-color: #2b8c3b;
-/*border-left: 3px dashed #F5F5F5;*/
-/*border-right: 3px dashed #F5F5F5;*/
-margin-left: 0px;
-position: fixed;
-left: 0;
-top: 0;
-width: 300px;
-height: 100%;
-text-align: center;
-opacity: 0.9;
-z-index: 10;
-}
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
+  z-index: 10;
+  }
 
-#menu p {
-top: 500px;
-}
+  #menu p {
+  top: 500px;
+  }
 
-#menu a {
-color: white;
-}
+  #menu a {
+  color: white;
+  }
 
-#menu a:hover {
-letter-spacing: 2px;
-}
+  #menu a:hover {
+  letter-spacing: 2px;
+  }
 
-#content {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-position: absolute;
-left: 350px;
-top: 10%;
-width: 50%;
-}
+  #content {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: absolute;
+  width: 100%;
+  top: 250px;
+  }
 
-#content img {
-float: left;
-}
+  #content img {
+  float: left;
+  }
 
-#content a {
-color: green;
-}
+  #content a {
+  color: green;
+  }
 
-#content a:hover {
-color: black;
+  #content a:hover {
+  color: black;
+  }
 }
 
 .container {
