@@ -62,7 +62,8 @@ background-color: #F5F5F5;
 /* phone version */
 @media screen and (max-width: 768px) {
   #menu {
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
   font-family: "Lucida Console", Monaco, monospace;
   background-color: #2b8c3b;
   margin-left: 0px;
